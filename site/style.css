@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+}
+
+/* Login */
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.wrapper form{
+    border: black 1px solid;
+    padding: 3%;
+    background-color: whitesmoke;
+}
+
+.loginForm input{
+    border: 0px;
+    border-bottom: 1px solid gainsboro;
+    width: 80%;
+    height: 30px;
+}
+
+.loginForm button{
+    width: 80%;
+    height: 30px;
+    border: 1px solid gainsboro;
+    background-color:#ffff7b;
+    border-radius: 15px;
+}
+
+.error{
+    color: red;
+}
+
+#newULink{
+    padding-top: 10px;
+    display: block;
+    color: #d76c80;
+}
+
+/* notes */
+
+
+.head{
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+}
+
+.head form textarea{
+    width: 80%;
+    float: left;
+    height: 38px;
+    padding: 0px;
+    resize: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.head button{
+    float: left;
+    width: 8%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+.note{
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    border-top-right-radius: 15px;
+}
+
+.note textarea{
+    width: calc(100% - 12px);
+    padding: 0px;
+    resize: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.note button{
+    width: 50%;
+    height: 30px;
+}
+
+.note .save{
+    background-color:#54b754;
+    border: 1px solid gainsboro;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+
+.note .delete{
+    background-color:rgb(193 87 87);
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.workbook{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+}
+
+.note span{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.note{
+    background-color: #ffff7b;
+}
+
+
+.add{
+    border: 1px solid gainsboro;
+    background-color:#54b754;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.logoff{
+    border: 1px solid gainsboro;
+    background-color:rgb(193 87 87);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-image: url("cool-background\ \(1\).png");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+
+
