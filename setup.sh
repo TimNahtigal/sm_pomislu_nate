@@ -15,5 +15,6 @@ sudo mysql --defaults-file=/etc/mysql/debian.cnf -e "source sqlSetup.sql"
 sudo mysql --defaults-file=/etc/mysql/debian.cnf -e "source database.sql"
 
 sudo cp -r site/* /var/www/html/
+sudo rm /var/www/html/index.html -y
 
 echo "Spletna stran je v /var/www/html/info.php"
