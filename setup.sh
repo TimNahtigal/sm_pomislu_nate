@@ -1,7 +1,7 @@
 #!/bin/sh
 sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get nano
+sudo apt-get upgrade 
+sudo apt-get nano -y
 
 apt install sudo -y
 sudo apt-get install wget apt-transport-https -y
